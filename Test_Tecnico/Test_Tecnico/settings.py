@@ -81,9 +81,9 @@ DATABASES = {
         'PORT' : '3306',
         'USER' : 'root',
         'PASSWORD': '',
-        'NAME': 'Test-GetecoDB',
+        'NAME': 'test-getecodb',
         'OPTIONS': {
-            'init:command' : "SET sql_mode='STRICT_TRANS_TABLES'"
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
     }
 }
